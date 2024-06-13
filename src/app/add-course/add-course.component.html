@@ -1,0 +1,27 @@
+<br>
+<br>
+<div class="container w-50" style="margin:auto;">
+    <form>
+        <div class="'mb-3">
+            <label for="id" class="form-label">Course Id</label>
+            <input type="text" [(ngModel)]="newCourse.id"
+            class="form-control" name="id" id="id">
+        </div>
+
+        <div class="'mb-3">
+            <label for="id" class="form-label">Course Title</label>
+            <input type="text" [(ngModel)]="newCourse.title"
+            class="form-control" name="title" id="title">
+        </div>
+
+        <div class="'mb-3">
+            <label for="id" class="form-label">Course Description</label>
+            <input type="text" [(ngModel)]="newCourse.description"
+            class="form-control" name="description" id="description">
+        </div>
+
+        <div class="container text-center">
+            <button class="btn btn-success" (click)="createCourse()">Create New Course</button>
+        </div>
+    </form>
+</div>

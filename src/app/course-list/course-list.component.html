@@ -1,0 +1,17 @@
+<br>
+<br>
+<div class="container">
+<table cellpadding=5 class="tabletable-bodered w-75 p-3 bg-dark text-warning p-3" style="margin:auto">
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Description</th>
+    </tr>
+    
+    <tr *ngFor="let i of info">
+        <td>{{i.id}}</td>
+        <td>{{i.title}}</td>
+        <td>{{i.description}}</td>
+    </tr>
+</table>
+</div>
